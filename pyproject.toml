@@ -35,11 +35,11 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = [
-    "pytest>=7.0.0,<8.0.0",
-    "black>=23.0.0,<24.0.0",
+    "pytest>=7.0.0,<9.0.0",
+    "black>=23.0.0,<25.0.0",
     "mypy>=1.0.0,<2.0.0",
-    "pytest-asyncio>=0.21.0,<0.22.0",
-    "ruff>=0.1.0,<0.2.0",
+    "pytest-asyncio>=0.21.0,<1.0.0",
+    "ruff>=0.1.0,<1.0.0",
     "types-requests>=2.31.0,<3.0.0",
 ]
 
@@ -54,6 +54,7 @@ proxmox-mcp = "proxmox_mcp.server:main"
 
 [tool.pytest.ini_options]
 asyncio_mode = "strict"
+asyncio_default_fixture_loop_scope = "function"
 testpaths = ["tests"]
 python_files = ["test_*.py"]
 addopts = "-v"
