@@ -1,11 +1,11 @@
 # ProxmoxMCP-Plus - Enhanced Proxmox MCP Server
 
 
-An enhanced Python-based Model Context Protocol (MCP) server for interacting with Proxmox virtualization platform with fixes and enhancements. This project is built upon **[RekklesNA/ProxmoxMCP-Plus](https://github.com/RekklesNA/ProxmoxMCP-Plus)** with numerous fixes and will receive future improvements, providing complete OpenAPI integration and more powerful virtualization management capabilities.
+Cursor focused Python-based Model Context Protocol (MCP) server for interacting with Proxmox virtualization platform with fixes and enhancements. This project is built upon **[RekklesNA/ProxmoxMCP-Plus](https://github.com/RekklesNA/ProxmoxMCP-Plus)** with numerous fixes and will receive future improvements, providing complete OpenAPI integration and more powerful virtualization management capabilities.
 
 ## Acknowledgments
 
-This project is built upon the excellent open-source project [ProxmoxMCP](https://github.com/RekklesNA/ProxmoxMCP-Plus) by [@RekklesNA](https://github.com/RekklesNA). Thanks to the original author for providing the foundational framework and creative inspiration!
+This project is built upon the excellent open-source project [ProxmoxMCP](https://github.com/RekklesNA/ProxmoxMCP-Plus) by [@RekklesNA](https://github.com/RekklesNA). Thanks to the original author for providing the foundational framework and creative inspiration! I will continue to update it specifically for usage with Cursor IDE.
 
 ## 🆕 New Features and Improvements
 
@@ -52,14 +52,14 @@ This project is built upon the excellent open-source project [ProxmoxMCP](https:
 
 ## Built With
 
-- [Cline](https://github.com/cline/cline) - Autonomous coding agent - Go faster with Cline
+- [Cursor](https://cursor.com)
 - [Proxmoxer](https://github.com/proxmoxer/proxmoxer) - Python wrapper for Proxmox API
 - [MCP SDK](https://github.com/modelcontextprotocol/sdk) - Model Context Protocol SDK
 - [Pydantic](https://docs.pydantic.dev/) - Data validation using Python type annotations
 
 ## Features
 
-- 🤖 Full integration with Cline and Open WebUI
+- 🤖 Full integration with Cursor and Open WebUI
 - 🛠️ Built with the official MCP SDK
 - 🔒 Secure token-based authentication with Proxmox
 - 🖥️ Complete VM lifecycle management (create, start, stop, reset, shutdown, delete)
@@ -91,7 +91,7 @@ Before starting, ensure you have:
 1. Clone and set up environment:
    ```bash
    # Clone repository
-   git clone https://github.com/RekklesNA/ProxmoxMCP-Plus.git
+   git clone https://github.com/agentify-sh/cursor-proxmox-mcp.git
    cd ProxmoxMCP-Plus
 
    # Create and activate virtual environment
