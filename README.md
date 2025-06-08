@@ -1,6 +1,6 @@
 # cursor-proxmox-mcp - Proxmox MCP Server for Cursor with OpenAPI (optional)
 
-![cursor-proxmox-mcp Screenshot](@scr.png)
+![cursor-proxmox-mcp Screenshot](./scr.png)
 
 Cursor focused Python-based Model Context Protocol (MCP) server for interacting with Proxmox virtualization platform with fixes and enhancements. 
 
