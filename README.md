@@ -1,11 +1,8 @@
-# ProxmoxMCP-Plus - Enhanced Proxmox MCP Server
+# cursor-proxmox-mcp - Proxmox MCP Server for Cursor with OpenAPI (optional)
 
+![cursor-proxmox-mcp Screenshot](@scr.png)
 
-Cursor focused Python-based Model Context Protocol (MCP) server for interacting with Proxmox virtualization platform with fixes and enhancements. This project is built upon **[RekklesNA/ProxmoxMCP-Plus](https://github.com/RekklesNA/ProxmoxMCP-Plus)** with numerous fixes and will receive future improvements, providing complete OpenAPI integration and more powerful virtualization management capabilities.
-
-## Acknowledgments
-
-This project is built upon the excellent open-source project [ProxmoxMCP](https://github.com/RekklesNA/ProxmoxMCP-Plus) by [@RekklesNA](https://github.com/RekklesNA). Thanks to the original author for providing the foundational framework and creative inspiration! I will continue to update it specifically for usage with Cursor IDE.
+Cursor focused Python-based Model Context Protocol (MCP) server for interacting with Proxmox virtualization platform with fixes and enhancements. 
 
 ## 🆕 New Features and Improvements
 
@@ -634,8 +631,13 @@ After activating your virtual environment:
 
 MIT License
 
-## Special Thanks
+## Acknowledgments
 
+This project is built upon the excellent open-source project [ProxmoxMCP](https://github.com/RekklesNA/ProxmoxMCP-Plus) by [@RekklesNA](https://github.com/RekklesNA). Thanks to the original author for providing the foundational framework and creative inspiration! I will continue to update it specifically for usage with Cursor IDE.
+
+
+## Special Thanks
+- Thanks to [@RekklesNA](https://github.com/RekklesNA) for the enhancements
 - Thanks to [@canvrno](https://github.com/canvrno) for the excellent foundational project [ProxmoxMCP](https://github.com/canvrno/ProxmoxMCP)
 - Thanks to the Proxmox community for providing the powerful virtualization platform
 - Thanks to all contributors and users for their support
