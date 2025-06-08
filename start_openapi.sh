@@ -49,4 +49,4 @@ echo ""
 export PROXMOX_MCP_CONFIG="$(pwd)/proxmox-config/config.json"
 
 # Start mcpo proxy server, bind to all interfaces on specified port
-mcpo --host 0.0.0.0 --port ${PORT} -- bash -c "cd $(pwd) && source .venv/bin/activate && python -m proxmox_mcp.server" 
+mcpo --host 0.0.0.0 --port ${PORT} --env PROXMOX_MCP_CONFIG="$(pwd)/proxmox-config/config.json" -- python -m proxmox_mcp.server 

@@ -117,7 +117,7 @@ def mock_proxmox():
 def server(mock_config, mock_proxmox):
     """Fixture to create a ProxmoxMCPServer instance."""
     with patch("proxmox_mcp.server.load_config", return_value=mock_config):
-        return ProxmoxMCPServer()
+    return ProxmoxMCPServer()
 
 def test_server_initialization(server, mock_proxmox):
     """Test server initialization with environment variables."""
@@ -145,7 +145,7 @@ async def test_list_tools(server):
 async def test_get_nodes(server, mock_proxmox):
     """Test get_nodes tool."""
     response = await server.mcp.call_tool("get_nodes", {})
-    
+
     assert len(response) == 1
     assert response[0].type == "text"
     assert "node1" in response[0].text

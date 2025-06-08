@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "proxmox": {
+      "command": "python",
+      "args": ["-m", "proxmox_mcp.server"],
+      "env": {
+        "PROXMOX_MCP_CONFIG": "./proxmox-config/config.json"
+      }
+    }
+  }
+} 

@@ -96,6 +96,11 @@ Before starting, ensure you have:
 
    # Create and activate virtual environment
    uv venv
+
+   # or force 3.11 (for mcpo dependency)
+   python3.11 -m venv .venv
+
+   # then activate it 
    source .venv/bin/activate  # Linux/macOS
    # OR
    .\.venv\Scripts\Activate.ps1  # Windows
@@ -105,6 +110,11 @@ Before starting, ensure you have:
    ```bash
    # Install with development dependencies
    uv pip install -e ".[dev]"
+
+   #or via pip
+   pip install -e .
+   pip install pytest pytest-asyncio black mypy ruff types-requests
+   pip install mcpo #need python 3.11
    ```
 
 3. Create configuration:
